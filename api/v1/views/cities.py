@@ -53,8 +53,8 @@ def create_city(state_id):
     if 'name' not in request.get_json():
         abort(400, description="Missing name")
     body = request.get_json()
+    body['state_id'] = state_id
     new_city = City(**body)
-    new_city.state_id = state.id
     new_city.save()
     return make_response(jsonify(new_city.to_dict()), 201)
 
