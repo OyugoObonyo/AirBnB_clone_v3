@@ -154,7 +154,6 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-David Mutune - [Github](https://github.com/kimengu-david)
 Oyugo Obonyo - [Github](https://github.com/OyugoObonyo)
 
 ## License
